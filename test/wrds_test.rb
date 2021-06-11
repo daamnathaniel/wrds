@@ -6,8 +6,21 @@ class WrdsTest < Minitest::Test
   def test_that_it_has_a_version_number
     refute_nil ::Wrds::VERSION
   end
+end
 
-  def test_it_does_something_useful
-    assert false
+
+class WrdsCLI < Minitest::Test
+  def test_that_cli_class_exists
+    assert Wrds::CLI
   end
 end
+
+
+class WrdsAPI < Minitest::Test
+  def test_that_api_class_exists
+    assert Wrds::API
+  end
+end
+
+
+
