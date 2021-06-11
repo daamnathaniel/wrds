@@ -1,7 +1,2 @@
-#! /usr/bin/env ruby
-
-
-require_relative '../lib/wrds'
-
-
-Wrds::CLI.new.call
+#!/usr/bin/env ruby                
+puts "hello world!"

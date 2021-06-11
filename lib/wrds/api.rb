@@ -1,4 +1,0 @@
-class Wrds::API
-
-
-end
