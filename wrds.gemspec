@@ -1,4 +1,3 @@
-
 Gem::Specification.new do |s|
     s.name = "wrds"
     s.version = "0.0.1"
@@ -6,10 +5,9 @@ Gem::Specification.new do |s|
     s.authors = ['authors']
 
     s.license = 'MIT'
-    s.email = 'degcat@126.com'
-    s.homepage = 'https://rubygems.org/gems/a'
+    s.email = 'daamnathanielatgeemaildotcom'
+    s.homepage = 'https://github.com/daamnathaniel/wrds'
 
     s.files =  Dir["lib/*.rb"]
     s.executables << "wrds" 
 end
-
