@@ -1,8 +1,9 @@
+
 Gem::Specification.new do |s|
     s.name = "wrds"
     s.version = "0.0.1"
-    s.summary = "summary"
-    s.authors = ['authors']
+    s.summary = "wrds finds words"
+    s.authors = ['nathanieladam']
 
     s.license = 'MIT'
     s.email = 'daamnathanielatgeemaildotcom'
@@ -11,3 +12,4 @@ Gem::Specification.new do |s|
     s.files =  Dir["lib/*.rb"]
     s.executables << "wrds" 
 end
+
