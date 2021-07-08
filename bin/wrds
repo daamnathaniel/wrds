@@ -3,3 +3,6 @@ puts "hello world!"
 
 
 require_relative '../lib/wrds'
+
+
+Wrds::CLI.new.call
